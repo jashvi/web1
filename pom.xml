@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-	<sonar.host.url>http://3.110.104.166:9000//</sonar.host.url>
+	<sonar.host.url>http://3.109.202.216:9000//</sonar.host.url>
 	<sonar.login>371f8aa3a31fbf8cb5a433c528e20e0bd6cbf0bc</sonar.login>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin</sonar.password>
