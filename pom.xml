@@ -2,11 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.javatpoint</groupId>
-  <artifactId>03-maven-web-app</artifactId>
+  <artifactId>03-maven-web-apps</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>03-maven-web-app Maven Webapp</name>
+  <name>maven-web-apps</name>
   <url>http://maven.apache.org</url>
+  <properties>
+	<sonar.host.url>http://65.0.74.249:9000//</sonar.host.url>
+	<sonar.login>29775ac0962172c214632085924cc16bcf9900f2</sonar.login>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,12 +19,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <properties>
-	<sonar.host.url>http://3.109.202.216:9000//</sonar.host.url>
-	<sonar.login>371f8aa3a31fbf8cb5a433c528e20e0bd6cbf0bc</sonar.login>
-	<sonar.login>admin</sonar.login>
-	<sonar.password>admin</sonar.password>
-  </properties>   
   <build>
     <finalName>03-maven-web-app</finalName>
   </build>
